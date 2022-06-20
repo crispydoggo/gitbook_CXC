@@ -1,0 +1,174 @@
+# Main findings {#section5}
+
+As mentioned above, this Preparedness Diagnostic uses a four dimensions analysis as reference. Each dimension contains elements considered relevant to have an "Ideal RBM System". This Ideal RBM System serves as a benchmark that allows to compare the current situation in CXC® in relation to the best possible scenario regarding  practices, uses and results of RBM. Figure 5 shows the degree of progress that CXC® has in each of the dimensions of analysis, with respect to the ideal scenario. 
+
+The elements and sub-elements of the reference Ideal RBM System are not usually part of the status quo, they should be identified, designed, and developed; following this, an institution that has not considered adopting RBM practices would probably not comply or show advances in any of the analysed elements. In this sense, all the advances identified in this diagnosis represent a valuable progress.
+
+It is important to mention that, although there is a numerical value for each dimension, behind the numbers there was a qualitative analysis that determined the current situation of CXC® regarding RBM. Furthermore, these "ratings" are in terms of the ideal scenario, so in no way does it represent an outright success or failure, but rather an approximation to the best possible situation of the RBM.
+
+
+```{r, include=FALSE}
+source("radar.R", local = knitr::knit_global())
+
+data <- filter(radar, country == "CXC")
+
+# To use the fmsb package, I have to add 2 lines to the dataframe: the max and min of each topic to show on the plot
+  
+data <- rbind(rep(100,4) , rep(0,4) , select(data, -country, -order))
+
+```
+
+<center>
++---------------------------+------------------------+
+| DIMENSION                 | LEVEL OF PROGRESS      | 
++===========================+========================+
+| INSTITUTIONALISATION      |    71%      | 
++---------------------------+-------------+
+| EXECUTION FRAMEWORK       |    46%      | 
++---------------------------+-------------+
+| TECHNICAL CAPABILITIES    |    63%      | 
++---------------------------+-------------+
+| USE OF EVIDENCE           |    43%     | 
++---------------------------+-------------+
+
+</center>
+
+```{r figure5, echo = FALSE, fig.cap = "Level of progress of the Ideal RBM System", out.width = '70%',fig.align = 'center'}
+radar_rbm( data[1:3,], colors_border[4,], colors_in[4,], whole = TRUE )
+```
+
+Considering this degree of progress, a metric was built to progressively identify five levels of maturity of RBM systems. In this way, the progress levels presented above are averaged to identify the RBM level in which CXC® is currently located^[  For more information, please see [appendix C](#appendixC).]. The 5 levels are:
+
+1.	Early initiatives
+2.	Committed development
+3.	RBM System
+4.	Consolidated practices
+5.	Mature State
+
+Considering the results in the Preparedness Diagnostic analysis, CXC® is currently in a Growing RBM System level. Significant efforts have been done in developing and implementing a medium-term results-oriented plan with clear strategies, KPIs and yearly targets to track the progress in achieving them. There are also significant efforts in monitoring activities with the use of the BSC methodology in an integrated system (SIS). Also, the Strategic Management mentions an evaluation process that consists in the analysis of the monitoring results, as well as its communication to different stakeholders within the institution to guide decision making. The development of an RBM Policy is still in progress; however, there is a lack of stablished guidelines for M&E activities with clear activities and responsibilities.
+
+
+
+##	Results by dimension 
+
+The results of this diagnosis for each of the dimensions analysed (and their ideal elements) are presented below in a synthetic manner. For more detailed information on each dimension, elements, and sub-elements, please see [appendix B](#appendixB) and visit the interactive platform with all the disaggregated findings of this PD.
+
+
+```{r , include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE) 
+```
+
+### Institutionalisation 
+
+:::dim1
+**Key Message:**
+CXC® has clear regulations on planning and M&E (specifically on strategic evaluation). There are important advances in the development of an RBM policy with the Strategic Management Framework (SMF); In addition, they are working on a new Corporate Performance Framework that will complement the SMF. However, there is no link between the budget process and the use of M&E results to improve it.
+:::
+
+```{r , echo=FALSE, results="asis"}
+library(readxl)
+library(kableExtra)
+library(dplyr)
+
+
+results <- read_excel("./Data/results.xlsx")
+
+dim_1 <-  results %>% 
+          filter( dimension_id == 1) %>% 
+          select( -dimension, -dimension_id, -element_id ) 
+
+kable(dim_1) %>%
+          kable_paper("striped", full_width = T, font_size = 12) %>%
+          column_spec(1, bold = T, border_right = T) %>%
+          column_spec(2, width = "33em")
+          
+
+```
+
+
+### Execution Framework 
+
+:::dim2
+**Key Message:**
+CXC® has strong monitoring practices, uses monitoring tools such as the BSC, and integrates the information in the Spider Impact System to follow-up the institution's performance. It also performs assessments of the KPIs to derive recommendations. However, there is a lack of use-oriented M&E activities for budgeting.
+:::
+
+
+
+
+```{r , echo=FALSE, results="asis"}
+dim_1 <-  results %>% 
+          filter( dimension_id == 2) %>% 
+          select( -dimension, -dimension_id, -element_id ) 
+
+kable(dim_1) %>%
+          kable_paper("striped", full_width = T, font_size = 12) %>%
+          column_spec(1, bold = T, border_right = T) %>%
+          column_spec(2, width = "33em")
+          
+
+```
+
+
+### Technical capabilities
+
+
+:::dim3
+**Key Message:**
+There are strong capabilities in planning, budgeting, and monitoring activities in CXC®. It is also reported that some staff have received training in evaluation types. However, CXC®’s evaluation needs are not clearly identified. 
+:::
+
+
+```{r , echo=FALSE, results="asis"}
+
+dim_1 <-  results %>% 
+          filter( dimension_id == 3) %>% 
+          select( -dimension, -dimension_id, -element_id ) 
+
+kable(dim_1) %>%
+          kable_paper("striped", full_width = T, font_size = 12) %>%
+          column_spec(1, bold = T, border_right = T) %>%
+          column_spec(2, width = "33em")
+          
+
+```
+
+
+### Use of evidence
+
+
+:::dim4
+**Key Message:**
+There is transparency in planning, and annual reports were delivered until 2019. In addition, there are mechanisms for the use of M&E results to improve planning and partially for budgeting. However, there is no transparency with budgeting. A strategy to generate a culture of evidence use is not identified.
+:::
+
+
+```{r , echo=FALSE, results="asis"}
+
+dim_1 <-  results %>% 
+          filter( dimension_id == 4) %>% 
+          select( -dimension, -dimension_id, -element_id ) 
+
+kable(dim_1) %>%
+          kable_paper("striped", full_width = T, font_size = 12) %>%
+          column_spec(1, bold = T, border_right = T) %>%
+          column_spec(2, width = "33em")
+          
+
+```
+
+##	Main challenges to strengthen the RBM system
+
+As mentioned in [section 2.2](#section2), the development of an RBM System is a complex, nonlinear, and continuous process that must be contextualized in each country. In doing so, it is important to consider the main challenges that Dominica faces when it comes to strengthening its RBM system. This diagnosis identifies three major challenges:
+
+1.Changing the culture and fostering the enabling environment to have an RBM system in place implies a change of mindset of public servants at all levels. It should be considered that throughout the process there must be a constant awareness/sensitization strategy, both in the short and mid-term, that allows public servants to identify why it is important to have this mindset change in pursuit of RBM. In other words, in a constant way, remember why RBM is important and how it can improve performance and lives.
+
+2.	Since this collaboration has a whole-of-institution approach, it is necessary to have a top-bottom commitment in which leaders and decision-makers show the benefits of the RBM system through actions that consider the evidence derived from the system. This means that we need a top-bottom approach to use, and thereby demonstrate its usefulness, the information and evidence derived from the RBM system to improve planning and budgeting decisions.
+
+3.	For the RBM system to be sustainable, it is of the utmost importance to generate a system of incentives and ensure that there is a balance between positive and negative incentives (such as potential penalties for non-compliance), to keep the system moving forward. The positive incentives can take different forms, from monetary to symbolic, such as the delivery of awards and recognition for good performance in public service.
+
+
+
+
+

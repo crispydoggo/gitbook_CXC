@@ -1,0 +1,353 @@
+--- 
+title: "CXC®’s  Preparedness \\ Diagnosis"
+author: "CARICOM"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+fontsize: 10pt
+bibliography: [book.bib, packages.bib]
+# url: your book url like https://bookdown.org/yihui/bookdown
+cover-image: images/cover.png
+description: |
+  This a report that is part from a series of preperedebess diagnosis 
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+---
+
+# url: your book url like https://bookdown.org/yihui/bookdown
+
+Placeholder
+
+
+
+<!--chapter:end:index.Rmd-->
+
+# (PART) Preface {-}
+
+
+# Acknowledgements {-}
+
+The CLEAR LAC team wishes to thank everyone involved in preparing this document. Especially to:
+
+ - Dr. Kyra Paul, Dominica´s Executive Coordinator for the Collaboration on RBM.
+
+ - Mrs. Leah St. Jean, Dominica’s Junior Executive Coordinator for the Collaboration on RBM.
+
+ - Mrs. Maurya West-Myers and Mr. Leonardo Lemes from the Global Evaluation Initiative
+
+ - Mrs. Hipolina Joseph and Ms. Stacy-Ann Barnes, from the CARICOM Secretariat
+
+ - The team of the CLEAR LAC´s interns who supported in the process of preparing this diagnosis: Alexia Galarza, Carolina Zepeda, Gisela Hurtado, Mariana Espinoza, Emilio Olmos and Lothar Rojas.
+
+
+<!--chapter:end:01-acknow.Rmd-->
+
+# Acronyms and abbreviations {-}
+
+**CARICOM** -The Caribbean Community 
+
+**CLEAR LAC** - Center for Learning on Evaluation and Results for Latin America and Caribbean
+
+**CREAD** - Climate Resilience Executive Agency of Dominica
+
+**CRRP** – Climate Resilience and Recovery Plan 2020 – 2030
+
+**NRDS** – National Resilience Development Strategy 2030
+
+**PSIP** – Public Sector Investment Programme
+
+
+
+<!--chapter:end:02-acronyms.Rmd-->
+
+# List of figures and tables {-}
+
+**Figure 1.** Theory of Change
+
+**Figure 2.** Dimensions of an ideal RBM system
+
+**Figure 3.** Working Process defined for the CARICOM Collaboration
+
+**Figure 4.** Stages of the Preparedness Diagnostic
+
+**Figure 5.** Degree of progress of the Ideal RBM System
+
+**Figure 6.** From an ideal RBM system to the roadmaps
+
+**Figure 7.** Learning loop
+
+**Figure 8.** How to identify the current level of the RBM system maturity
+
+**Table 1.** CXC®’s Preparedness Diagnostic Numbers
+
+**Table 2.** Stakeholders’ Contribution Analysis
+
+**Table 3:** Elements and sub-elements of the Ideal RBM System
+
+**Table 5:** Detailed results of the Preparedness Diagnostic for CXC®
+
+**Table 6.** List of participants in the Preparedness Diagnostic
+
+
+<!--chapter:end:03-list_figure.Rmd-->
+
+# Definitions and concepts {-}
+
+**Evaluation** - The systematic and objective assessment of an ongoing or completed project, programme, or policy, including its design, implementation, and results.
+
+**Monitoring** – The continuous and systematic collection of data on specified indicators, to provide information on the extent to which resources have been used and what outputs have been achieved or produced. 
+
+**Result** - Clearly defined and demonstrable output, outcome, or impact (intended or unintended, positive and/or negative) of an intervention.
+
+**Results-Based Management System (RBM System)**^[This concept was developed following internationally recognised standards and approaches and contextualised to the particular case of CARICOM]  - - It is a global and systemic approach to management that orients all strategies, actions, and resources (both human and material) towards improving decision-making and the achievement and measurement of clearly defined and demonstrable results expected by governments and institutions, whether national, regional, or global.
+
+
+This systemic approach can be analysed at three levels (considering all the relationships that may exist between them) for CARICOM: the national level, the regional institutions level, and the whole-regional / CARICOM level. These levels are individual and do not have a defined hierarchy, as they have their own institutional, human, financial and multidimensional contextual characteristics that make them independent of each other. Nevertheless, the articulation between them is relevant to understanding how RBM operates in the region.
+
+
+The RBM system can, in turn, be composed of different sub-systems (that are systems by themselves). Some of the most important, but not the only ones, are: the monitoring and evaluation (M&E) sub-system (with the formal document that institutionalises it: the M&E Policy or Framework, if it exists); the data and information sub-system, which generates, processes, systematises and publishes relevant information to know and scale the multidimensional situation of the country or institution and thus identify problems to be addressed and guide decision-making; the human resources management sub-system, which builds and constantly strengthens the necessary capacities to have the staff with the capabilities to carry out the M&E and RBM activities necessary to achieve and measure the expected results, etc.
+
+
+RBM policies, on the other hand, are key elements of a sustainable RBM system but are not, by themselves, the system. RBM policies are the normative framework that: defines how the RBM system will be structured; establishes the guiding principles for the results-oriented approach; communicates what RBM entails for the country, institution or region; identifies stakeholders to be involved and their responsibilities; and identifies the needs to execute the necessary activities, among other elements. National, institutional, and regional RBM systems linkages may be established in RBM policies, which may have shared elements.
+
+
+In this way, we should not confuse the RBM system with technological applications, platforms, software, or digital repositories with data or information contained and systematised, with the other sub-systems (described above) that conforms it, or with the RBM policies; but we should assume that to have a fully operational RBM system, it is necessary to seek a good articulation between all the sub-systems and levels, so we can achieve and measure the expected results, both at the national and regional levels.
+
+
+
+
+<!--chapter:end:04-concepts.Rmd-->
+
+# (PART) Preparedness Diagnosis {-}
+
+# Introduction
+
+In July 2014, the Conference of Heads of Government of the Caribbean Community (CARICOM), approved the CARICOM Strategic Plan 2015-2019 which articulated the need for a more results-focused approach to programme and project management, and committed the Caribbean Community Secretariat to establish a planning, monitoring and evaluation (M&E), and reporting system based on the principles of Results-Based Management (RBM). In executing the tenets of the Community Strategic Plan, all implementing partners have expressed concern about an _implementation deficit_. This has resulted in poor implementation of public policy and Regional Public Goods in many Member States, culminating in low rates of successful program and project implementation across the Community.
+
+Efforts to address the _implementation deficit_, to promote a more results-focused approach to programme and project management, and to strengthen RBM in the Community commenced in 2016 with the engagement of the consulting firm Baastel, to develop the CARICOM RBM System and support its institutionalisation at the CARICOM Secretariat. In October 2019, the CARICOM Secretariat requested technical assistance^[With non-lending Technical Assistance (TA) the Bank helps clients to implement reform and/or strengthen institutions. Qualified TA activity must meet the following criteria: have a primary intent of enabling an external client to implement reform and/or strengthen institutions; be linked to a Bank unit with clear accountability for the service provided.]  from the World Bank’s Independent Evaluation Group (IEG) to continue these efforts by supporting CARICOM in strengthening a result-oriented culture across the Community, which includes three implementing partners, the Member States, Regional Institutions, and the CARICOM Secretariat.
+
+As part of the collaboration, the IEG and CLEAR LAC under the Global Evaluation Initiative (GEI) agreed to provide technical assistance in the establishment and institutionalisation of RBM policies, in addition to the Secretariat, to three pilot Member States (Dominica, Jamaica, and Saint Lucia) and three pilot Regional Institutions (the Caribbean Development Fund, the Caribbean Examinations Council, and the CARICOM Implementation Agency for Crime and Security). These pilots will serve as champions to support capacity strengthening in the remaining Member States and Regional Institutions, in collaboration with IEG and the CARICOM Secretariat.
+
+In order to establish a customize roadmap to strengthen the pilot´s RBM Systems, a Preparedness Diagnostic was identified as a first step of the collaboration to assess the level of maturity of the systems and identify specific contextual and organizational features and milestones to be achieved over a over a five-year period.
+
+This report presents the findings from the Preparedness Diagnostic for the Caribbean Examinations Council (CXC® from here on). The Report provides  information on the existing strengthens and opportunities to operationalise RBM in the Regional Institution.
+
+The report consists of six sections, including the introduction. [Section 2](#section2) will present CXC’s position on the results of the Preparedness Diagnostic. [Section 3](#section3) presents the methodology description which includes the Theory of Change of this activity; the Preparedness Diagnostic stages, and the “Ideal RBM System,” which consists of a four dimension the benchmark for the assessment.
+
+[Section 4](#section4) 4 contains general and contextual information of CXC®. This section also presents the interest, expectations and challenges that may arise by the implementation of an RBM system with a whole of institution approach; as well as the progress on the development of their RBM system based on the four dimensions mentioned above.
+
+[Section 5](#section5) presents the main findings and level of progress for Dominica in each of the four dimensions. Finally, [Section 6](#section6) introduces the process for building a contextualized roadmap for advancing towards a sustainable RBM system for CXC®, as well as a stakeholders’ contribution analysis.
+
+After reading this report, the reader will obtain a clear idea of the existing practices and elements to build on and move forward towards achieving a sustainable RBM system, as well as key elements to accomplish these.  The report may also be used to guide discussions among relevant stakeholders; to aid in empowering key stakeholders in the path of strengthening RBM practices; to share best practices with other Regional Institutions; as well as to bring to light characteristics of practices already being implemented. 
+
+Specifically, within the framework of this collaboration, the report represents the main input for the development of the contextualized medium-term roadmaps, through workshops following a participatory process.
+
+
+<!--chapter:end:05-intro.Rmd-->
+
+# 	CXC®’s position on the Preparedness Diagnostic {#section2}
+
+<span style="color:red"> Once the final report has been finalised including the development of the roadmaps, this section will present a position from the Member State (coordinated by the Executive Coordinator for this collaboration) on the process of the preparedness diagnostic, the main findings identified, and the role of the CLEAR LAC team and the CARICOM Secretariat while developing it. </span>
+
+<!--chapter:end:06-section2.Rmd-->
+
+
+# Methodology {#section3}
+
+Placeholder
+
+
+## Theory of Change of a sustainable RBM System 
+## Ideal RBM system and working process
+## Stages of the Preparedness Diagnostic
+### Stages of the PD {-}
+### Strengths of the PD {-}
+### Limitations of the PD {-}
+
+<!--chapter:end:07-section3.Rmd-->
+
+# CXC®’s profile {#section4}
+
+The Caribbean Examination Council (CXC®) is an examination board active since 1972 under an agreement by 15 Commonwealth Caribbean countries (Agreement by the Participating Governments in the Caribbean Community (CARICOM)). The organization was formed with the aim of transforming education in the Caribbean at a time when British examination boards were the leading examination bodies but also when countries in the region were asserting themselves as independent states or advocating for independence, therefore the necessity for internal regional examinations was born to shape future development. 
+
+As of today, the Council has 16 English-speaking participating countries and three Dutch-speaking territories that offer examinations. The two main offices of the Council are the Headquarters or Eastern Zone Office (EZO) in Barbados and the Western Zone Office (WZO) in Jamaica.
+
+CXC® provides examinations and certifications for secondary and post-secondary candidates in Caribbean countries in a variety of subjects in academic, technical, and vocational areas. The organization works with educators across the Caribbean who work in sixth form schools, community, state, and teacher-training colleges and universities, as well as specialists from the private sector.
+
+CXC® also uses its expertise and technologies to provide assistance and consultancy services such as the development of syllabuses, preparation and administration of national examinations, training in school-based assessment, item writing, and other aspects of measurement and evaluation, analysis and preparation of reports of students’ performance, and preparation of resource materials for both the public and private sector across the region.
+
+The vision of the institution is to be a digitally transformed enterprise that provides quality, relevant, and globally recognised educational services and its mission is to develop the human capital of Caribbean people through partnerships for global competitiveness.
+
+The structure of the Council currently consists of the Vice-Chancellor of the University of West Indies, the Vice-Chancellor of the University of Guyana, three representatives of the University of West Indies, one representative of the University of Guyana, two representatives appointed by each of the Participating Governments (Barbados, Jamaica, Guyana and Trinidad and Tobago), one representative appointed by each of the other Participating Governments, and one representative of the teaching profession appointed by each National Committee from among its members. Members of the Council hold office for a period of three years and Chairmanship is held by one of the Vice-Chancellors or their representatives. The council meets annually to decide on policy framework, and this is carried out by the Administrative and Finance Committee (AFC), the School Examinations Committee (SEC), and its Sub-Committee (SUBSEC).
+
+Other stakeholders are also important to support the organization and its mandates. At the national level, these stakeholders include Ministries of Education, CXC® National Committees, national education authorities, schools, post-secondary and tertiary education institutions, and employers. At the regional level, the stakeholders are the CARICOM Secretariat, OECS Commission, the Caribbean Development Bank, The University of the West Indies, Regional accreditation agencies, the Caribbean Union of Teachers, and regional commercial and employer bodies. Finally, at the international level, these include international development partners such as UNESCO, UNECLAC, UNICEF, UN-WEF, COL, IADB, EU and OAS, international universities and colleges, international examinations and assessment bodies, as well as international qualifications authorities and accreditation agencies and international awarding bodies.
+
+
+## CXC®’s RBM profile
+
+CXC® is considered an advanced results-oriented organisation among CARICOM’s Regional Institutions. As the regional examinations board, improving performance with learning is in its essence. It is an institution that, like many others, faces different challenges such as scarce resources, the COVID-19 pandemic, and a constant need to adapt to the changing needs of its customers. To face these challenges and keep delivering services of excellence in the region, CXC® has made relevant efforts into the adoption of an RBM System.
+
+
+In 2020, CXC® created the Corporate Planning and Strategy Management Unit (CPSM). This unit oversees the institutional planning activities as well as the monitoring and evaluation of the implementation of the strategics’ medium-term plan. The development of CXC®’s Strategic Plan 2021 – 2025, a bold plan intended to guide the institution’s initiatives considering the regional needs with a global perspective, is another big step toward a systematic results-oriented approach. The Strategic Plan sets a clear general goal, becoming a globally recognized and top technological educational service provider, and 13 specific strategies to achieve this. All strategies have at least one key performance indicator (KPI), yearly targets, and responsible units or departments.
+
+Another significant advance by CXC® was the adoption of the Spider Impact Software (SIS), a management tool that uses the Balance Scorecard methodology (BSC) to monitor the institution’s performance and keep track of the achievement of defined goals. The information captured by the system brings a deep insight into how the initiatives are performing, the budget expenditure, and how much on track CXC® is; and the analysis of this information allows to learn and improve performance. On the road to developing the institutional RBM System, CXC® is committed and motivated to continue the journey. 
+
+
+
+
+<!--chapter:end:08-section4.Rmd-->
+
+
+# Main findings {#section5}
+
+Placeholder
+
+
+### Institutionalisation 
+### Execution Framework 
+### Technical capabilities
+### Use of evidence
+
+<!--chapter:end:09-section5.Rmd-->
+
+
+# Next steps to building the roadmap  {#section6}
+
+Placeholder
+
+
+## Stakeholders’ contribution analysis
+
+<!--chapter:end:10-section6.Rmd-->
+
+# References & Sources {-}
+
++ CXC® / Education / Examinations / Certifications. (2021, August 31st). Caribbean Examinations Council. https://CXC®.org
+
+
+<!--chapter:end:11-references.Rmd-->
+
+# (APPENDIX) Appendix {-}
+
+```{r , include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE) 
+
+```
+
+# Conceptual framework (CLEAR LAC) {#appendixA}
+
+## Key dimensions of a sustainable RBM System
+
+The development of an RBM System is a complex and nonlinear process that must be contextualized to the specific region, country, or regional institution. However, the multiple efforts done over time allow us to learn from experiences in different settings and identify good practices. These good practices represent useful inputs to be considered when embarked on this road. 
+
+
+One significant component to strengthen RBM in the Community is to build, in a participatory process, specific roadmaps to continue the development of RBM Systems for each pilot member state and regional institution. The member states and regional institutions participating in the pilot have significant but heterogeneous advances achieving this goal. To identify these advances and guide the analysis of the Preparedness Diagnostic stages, the CLEAR LAC team defined four dimensions of an ideal and sustainable RBM System:
+
+
+-	_Institutionalisation:_ this dimension focuses on the formal rules that defines, outlines and formalize the RBM Systems in the countries.
+
+-	_Execution framework:_ this dimension focuses on the systems, resources, processes, methodologies, and tools necessary for the implementation of the RBM system, as well as incentives that promote an enabling environment.
+
+-	_Technical capabilities:_ this dimension focuses on the capacities, abilities, and resources necessary to implement and sustain the RBM System.
+
+-	_Use of evidence:_ this dimension focuses on the dissemination strategies and incentives aimed at stakeholders with the purpose that they use the evidence generated by the RBM System and its measurement.
+
+##	Ideal elements & sub-elements
+
+The four dimensions previously mentioned were conceptualized as necessary components when building an operating and sustainable RBM system. To have a better understanding of what the progress in each dimension entails, we propose a set of ideal elements and sub-elements taken from different contexts and experiences where they have been successfully implemented or recommended. Each dimension has a set of elements that represent activities, documents, normative frameworks, skills, incentives, etc.; and every element has a set of sub-elements that describe the ideal characteristics of the element. The sub-elements allow to translate concepts into practice, and, after gathering and analysing information, this knowledge can be translated into specific actions.
+
+Unlike the dimensions, as RBM Systems are designed and built considering contextual factors, some elements and sub-elements should be taken as a guide as different contexts will result in variations on their interpretation and level of relevance/priorities. This framework allows for adaptations, recognizing that every context is particular and that there is no unique checklist that may apply to all contexts.
+
+
+```{r , echo=FALSE, results="asis"}
+library(dplyr)
+library(readxl)
+library(kableExtra)
+
+ideal <- read_excel("./Data/ideal_rbm.xlsx")
+
+aux <- ideal %>% 
+  filter( dimension_id == 1)
+
+ideal %>% 
+  filter( dimension_id == 1, sub_id != 0) %>% 
+  select("I. Institutionalisation Ideal elements" = indicator) %>% 
+  kbl( ) %>%
+  kable_paper("striped", full_width = F)%>%
+  pack_rows(aux$indicator[1], 1, 7) %>%
+  pack_rows(aux$indicator[8], 8, 15) %>% 
+  pack_rows(aux$indicator[16], 16, 25) %>% 
+  pack_rows(aux$indicator[26], 26, 30) %>% 
+  pack_rows(aux$indicator[31], 31, 38) %>%
+  pack_rows(aux$indicator[39], 39, 48) %>%
+  pack_rows(aux$indicator[49], 49, 57) %>%
+  pack_rows(aux$indicator[58], 58, 61) %>%
+  scroll_box(width = "700px", height = "300px")
+
+
+    
+
+```
+
+##	Levels of progress
+
+The Preparedness Diagnostic methodology is designed to gain a deep understanding of a country or institution’s relevant aspects/characteristics when developing an RBM System. The different stages are meant to gather information from different stakeholders to achieve a whole of government / institutional outlook. The dimensions with ideal elements and sub-elements guide the analysis of the information gathered in order to identify the level of progress of a specific government or institution.
+
+The scale used to assess the sub-elements are:
+
+-	**No:** there is no documented advance in the sub-element
+-	**Needs improvement:** there is documented advance in the sub-element, but do not cover all the criteria express in the sub-element.
+-	**Yes:** there is documented proof that the sub-element complies with the needed/ideal characteristics
+
+Each scale level has an assigned value, and every element will have a result obtained from the total sum of its sub-element’s scores. The average score of the elements per dimension results in the dimension’s score, and the average score of the four dimensions will place the Member state/regional Institution in one of the following **levels of progress** of their RBM Systems:
+
+-	Level 0. No RBM
+-	Level 1. Early initiatives: there are some initiatives to develop RBM-related structures and focus on monitoring activities
+-	Level 2. Committed development: there are RBM-related structures being stablished and limited evaluation activities
+-	Level 3.. Growing RBM system: there are RBM-related structures being stablished and limited evaluation activities
+-	Level 4. Consolidated practices: there are integrated efforts (political will, capacity building and some whole-of-government consensus) to develop the RBM System
+-	Level 5. Mature state: Functioning and sustainable RBM System in place that generates credible, reliable and timely information that improves public policies
+
+***
+```{r figure8, echo = FALSE, fig.cap = "How to identify the current level of the RBM system maturity", out.width = '100%'}
+knitr::include_graphics("./images/figure_8.png")
+```
+***
+
+
+
+
+<!--chapter:end:12-appendixA.Rmd-->
+
+
+# Detailed findings  {#appendixB} 
+
+Placeholder
+
+
+
+<!--chapter:end:13-appendixB.Rmd-->
+
+
+
+
+<!--chapter:end:14-appendixC.Rmd-->
+
+# List of shared documents  {#appendixD}
+
+
++	**CXC® Annual Report 2019**
+
++ **CXC® Strategic Plan 2021-2025**
+
++ **CXC® Structure - Macro level 2022**
+
++ **Master Document List 2022**
+
++ **Proposed Department Structure 2019**
+
++ **Strategic Management Framework - March 2020**
+
+<!--chapter:end:15-appendixD.Rmd-->
+
