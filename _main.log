@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.6.7)  19 JUN 2022 21:22
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.6.7)  20 JUN 2022 20:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -872,7 +872,7 @@ File: ./images/tb1_4.png Graphic file (type bmp)
 ]
 Chapter 4.
 
-Underfull \hbox (badness 1484) in paragraph at lines 429--430
+Underfull \hbox (badness 1484) in paragraph at lines 441--442
 []\TU/lmr/m/n/10 CXC® provides examinations and certifications for secondary and post-
  []
 
@@ -883,7 +883,7 @@ Chapter 5.
 File: _main_files/figure-latex/figure5-1.pdf Graphic file (type pdf)
 <use _main_files/figure-latex/figure5-1.pdf>
 [37] [38]
-Underfull \hbox (badness 10000) in paragraph at lines 516--542
+Underfull \hbox (badness 10000) in paragraph at lines 528--554
 
  []
 
@@ -894,7 +894,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (595.87537pt too high) has occurred while \output is active []
 
 [40]
-Underfull \hbox (badness 10000) in paragraph at lines 551--565
+Underfull \hbox (badness 10000) in paragraph at lines 563--577
 
  []
 
@@ -906,12 +906,12 @@ Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=
 Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=tex-text;!
 Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=tex-text;!
 
-Underfull \hbox (badness 10000) in paragraph at lines 574--586
+Underfull \hbox (badness 10000) in paragraph at lines 586--598
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 595--609
+Underfull \hbox (badness 10000) in paragraph at lines 607--621
 
  []
 
@@ -930,12 +930,12 @@ File: ./images/figure_7.png Graphic file (type bmp)
 [45
 
 ] [46]
-Overfull \hbox (63.7201pt too wide) in paragraph at lines 680--753
+Overfull \hbox (63.7201pt too wide) in paragraph at lines 692--765
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 1647.88197pt on input line 753.
+LaTeX Warning: Float too large for page by 1647.88197pt on input line 765.
 
 [47] [48] [49
 
@@ -944,30 +944,30 @@ LaTeX Warning: Float too large for page by 1647.88197pt on input line 753.
 ]
 Appendix A.
 [51]
-Overfull \hbox (0.22893pt too wide) in paragraph at lines 793--794
+Overfull \hbox (0.22893pt too wide) in paragraph at lines 805--806
 \TU/lmr/m/n/10 components when building an operating and sustainable RBM system. To have a
  []
 
 
-Overfull \hbox (666.66005pt too wide) in paragraph at lines 799--926
+Overfull \hbox (666.66005pt too wide) in paragraph at lines 811--938
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 219.19962pt on input line 926.
+LaTeX Warning: Float too large for page by 219.19962pt on input line 938.
 
 
-Overfull \hbox (451.87006pt too wide) in paragraph at lines 930--973
+Overfull \hbox (451.87006pt too wide) in paragraph at lines 942--985
  [][] 
  []
 
 
-Overfull \hbox (1039.36009pt too wide) in paragraph at lines 977--1042
+Overfull \hbox (1039.36009pt too wide) in paragraph at lines 989--1054
  [][] 
  []
 
 
-Overfull \hbox (515.27002pt too wide) in paragraph at lines 1046--1107
+Overfull \hbox (515.27002pt too wide) in paragraph at lines 1058--1119
  [][] 
  []
 
@@ -979,25 +979,25 @@ File: ./images/figure_8.png Graphic file (type bmp)
 ]
 Appendix B.
 
-Overfull \hbox (2411.84013pt too wide) in paragraph at lines 1164--1291
+Overfull \hbox (2411.84013pt too wide) in paragraph at lines 1176--1303
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 219.19962pt on input line 1291.
+LaTeX Warning: Float too large for page by 219.19962pt on input line 1303.
 
 
-Overfull \hbox (1456.04008pt too wide) in paragraph at lines 1295--1338
+Overfull \hbox (1456.04008pt too wide) in paragraph at lines 1307--1350
  [][] 
  []
 
 
-Overfull \hbox (2721.85022pt too wide) in paragraph at lines 1342--1407
+Overfull \hbox (2721.85022pt too wide) in paragraph at lines 1354--1419
  [][] 
  []
 
 
-Overfull \hbox (1580.5401pt too wide) in paragraph at lines 1411--1472
+Overfull \hbox (1580.5401pt too wide) in paragraph at lines 1423--1484
  [][] 
  []
 
@@ -1005,37 +1005,37 @@ Overfull \hbox (1580.5401pt too wide) in paragraph at lines 1411--1472
 
 ]
 Appendix C.
-LaTeX Font Info:    Calculating math sizes for size <15> on input line 1482.
+LaTeX Font Info:    Calculating math sizes for size <15> on input line 1494.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 15.0pt on input line 1482.
+(Font)              scaled to size 15.0pt on input line 1494.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 10.49995pt on input line 1482.
+(Font)              scaled to size 10.49995pt on input line 1494.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 7.5pt on input line 1482.
+(Font)              scaled to size 7.5pt on input line 1494.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 15.00137pt on input line 1482.
+(Font)              scaled to size 15.00137pt on input line 1494.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.5009pt on input line 1482.
+(Font)              scaled to size 10.5009pt on input line 1494.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.50069pt on input line 1482.
+(Font)              scaled to size 7.50069pt on input line 1494.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 14.9984pt on input line 1482.
+(Font)              scaled to size 14.9984pt on input line 1494.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 10.49883pt on input line 1482.
+(Font)              scaled to size 10.49883pt on input line 1494.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.49919pt on input line 1482.
+(Font)              scaled to size 7.49919pt on input line 1494.
 
-Overfull \hbox (2.925pt too wide) in paragraph at lines 1502--1502
+Overfull \hbox (2.925pt too wide) in paragraph at lines 1514--1514
 []\TU/lmr/m/n/15 Organisation|  
  []
 
 
-Overfull \hbox (6.3pt too wide) in paragraph at lines 1502--1502
+Overfull \hbox (6.3pt too wide) in paragraph at lines 1514--1514
 []\TU/lmr/bx/n/15 Harewood- 
  []
 
 
-Overfull \hbox (569.70004pt too wide) in paragraph at lines 1482--1503
+Overfull \hbox (569.70004pt too wide) in paragraph at lines 1494--1515
  [][] 
  []
 
