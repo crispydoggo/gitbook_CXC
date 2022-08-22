@@ -79,7 +79,7 @@ dim_1 <-  results %>%
           select( -dimension, -dimension_id, -element_id ) 
 
 kable(dim_1) %>%
-          kable_paper("striped", full_width = T, font_size = 12) %>%
+          kable_paper("striped", full_width = T, font_size = 14) %>%
           column_spec(1, bold = T, border_right = T) %>%
           column_spec(2, width = "33em")
           
@@ -103,7 +103,7 @@ dim_1 <-  results %>%
           select( -dimension, -dimension_id, -element_id ) 
 
 kable(dim_1) %>%
-          kable_paper("striped", full_width = T, font_size = 12) %>%
+          kable_paper("striped", full_width = T, font_size = 14) %>%
           column_spec(1, bold = T, border_right = T) %>%
           column_spec(2, width = "33em")
           
@@ -127,7 +127,7 @@ dim_1 <-  results %>%
           select( -dimension, -dimension_id, -element_id ) 
 
 kable(dim_1) %>%
-          kable_paper("striped", full_width = T, font_size = 12) %>%
+          kable_paper("striped", full_width = T, font_size = 14) %>%
           column_spec(1, bold = T, border_right = T) %>%
           column_spec(2, width = "33em")
           
@@ -151,7 +151,7 @@ dim_1 <-  results %>%
           select( -dimension, -dimension_id, -element_id ) 
 
 kable(dim_1) %>%
-          kable_paper("striped", full_width = T, font_size = 12) %>%
+          kable_paper("striped", full_width = T, font_size = 14) %>%
           column_spec(1, bold = T, border_right = T) %>%
           column_spec(2, width = "33em")
           
